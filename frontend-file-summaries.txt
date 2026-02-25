@@ -1,0 +1,14 @@
+{
+  "frontend/index.html": "HTML entry point updated with \"Into The Backrooms\" title, liminal space meta description, Open Graph tags, and Google Fonts imports for Special Elite and Share Tech Mono monospace fonts.",
+  "frontend/src/components/NavBar.tsx": "Sticky navigation rebranded to \"Into The Backrooms\" with fluorescent yellow-green palette, monospace typography, smooth-scroll links to new section IDs, and a diamond-shaped flickering logo mark.",
+  "frontend/src/components/Footer.tsx": "Footer rebranded to \"Into The Backrooms\" with tagline, smooth-scroll navigation, system status readout, fan project disclaimer, and caffeine.ai attribution — all in the liminal fluorescent palette.",
+  "frontend/src/components/HeroSection.tsx": "Full-screen hero with \"You Weren't Supposed to Find This\" headline, flickering fluorescent animations, Backrooms hero background image, dark vignette overlay, and an \"Enter\" CTA button with pulse-glow effect.",
+  "frontend/src/components/GallerySection.tsx": "Gallery section with all five before/after card image pairs replaced with knight-themed assets (gallery-knight1 through gallery-knight5), preserving all enhancement labels and hover interactions.",
+  "frontend/src/index.css": "Complete redesign with Backrooms/Dreamcore OKLCH color system, noise/grain texture utility class (.texture-grain), flicker and flickerText CSS keyframe animations for fluorescent light effects, and monospace-first typography.",
+  "frontend/tailwind.config.js": "Tailwind config updated with Backrooms/Dreamcore palette (fluorescent, liminal, void, pale-cyan, faded-lavender), Special Elite/Share Tech Mono as serif/mono font families, and flicker/pulse-glow animation tokens.",
+  "frontend/src/App.tsx": "Main app component rebuilt to render the Backrooms/Dreamcore site with NavBar, HeroSection, WhatAreBackroomsSection, LevelsSection, DreamcoreSection, SurvivalGuideSection, and Footer — all old Dark Fantasy sections removed.",
+  "frontend/src/components/WhatAreBackroomsSection.tsx": "Lore section explaining the Backrooms with atmospheric copy, a large pull-quote, recovered hallway image with scanline overlay and corner markers, and scroll-triggered fade-in animations.",
+  "frontend/src/components/LevelsSection.tsx": "Grid of four Backrooms level cards (Level 0, Level 1, Level !, Poolrooms) each with generated image, level name, description, danger tag, and per-level colored hover glow effects.",
+  "frontend/src/components/DreamcoreSection.tsx": "Dreamcore aesthetic section with explanatory copy, pull-quote, aesthetic tags, and a 2×2 image grid with hover caption overlays using soft pastel lavender/cyan accent colors.",
+  "frontend/src/components/SurvivalGuideSection.tsx": "Five survival tips styled as a distressed typewriter document with paper texture background, monospace font, faded ink styling, and numbered entries in a classified document format."
+}

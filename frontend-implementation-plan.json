@@ -1,0 +1,283 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Build Backrooms & Dreamcore Website",
+  "requirements": [
+    {
+      "id": "REQ-14",
+      "summary": "Replace existing landing page with Backrooms/Dreamcore themed website, removing all Dark Fantasy by Ricay references",
+      "acceptanceCriteria": [
+        "No references to 'Dark Fantasy by Ricay' or photo enhancement remain anywhere on the page",
+        "All section content is replaced with Backrooms/Dreamcore themed content",
+        "Old knight images are no longer referenced"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Replace entire component structure with new Backrooms-themed sections: HeroSection (Enter the Backrooms), WhatAreBackroomsSection (lore), LevelsSection (four levels grid), DreamcoreSection (mood board), SurvivalGuideSection (tips), and Footer. Remove all existing Dark Fantasy section imports and references."
+        },
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Replace existing hero content with Backrooms-themed headline 'You Weren't Supposed to Find This', subheadline 'Welcome to the Backrooms — infinite liminal space beyond the boundaries of reality', single 'Enter' CTA button, and background image using frontend/public/assets/generated/backrooms-hero-bg.dim_1920x1080.jpg. Remove BeforeAfterSlider component, knight imagery, and photo enhancement copy."
+        },
+        {
+          "path": "frontend/src/components/NavBar.tsx",
+          "operation": "modify",
+          "description": "Update brand name from 'Dark Fantasy by Ricay' to 'Into The Backrooms'. Update smooth-scroll navigation links to match new section IDs (what-are-backrooms, levels, dreamcore, survival-guide). Replace CTA button text from pricing-related to 'Explore' or remove if not needed. Apply liminal color palette styling."
+        },
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Replace brand name with 'Into The Backrooms' and tagline 'The walls are not what they seem.' Update navigation links to new section IDs. Add disclaimer text: 'This site is a fan-made creative project inspired by the Backrooms and Dreamcore internet aesthetics.' Apply liminal color palette styling."
+        },
+        {
+          "path": "frontend/src/components/GallerySection.tsx",
+          "operation": "delete",
+          "description": "Remove this component as knight photo gallery is no longer needed for Backrooms theme."
+        },
+        {
+          "path": "frontend/src/components/PricingSection.tsx",
+          "operation": "delete",
+          "description": "Remove this component as pricing tiers are not part of the Backrooms/Dreamcore website."
+        },
+        {
+          "path": "frontend/src/components/TestimonialsSection.tsx",
+          "operation": "delete",
+          "description": "Remove this component as customer testimonials are not part of the Backrooms/Dreamcore website."
+        },
+        {
+          "path": "frontend/src/components/HowItWorksSection.tsx",
+          "operation": "delete",
+          "description": "Remove this component as the photo enhancement process is not part of the Backrooms/Dreamcore website."
+        },
+        {
+          "path": "frontend/src/components/TransformationSection.tsx",
+          "operation": "delete",
+          "description": "Remove this component as transformation messaging is not part of the Backrooms/Dreamcore website."
+        },
+        {
+          "path": "frontend/src/components/WhatWeEnhanceSection.tsx",
+          "operation": "delete",
+          "description": "Remove this component as photo enhancement features are not part of the Backrooms/Dreamcore website."
+        },
+        {
+          "path": "frontend/src/components/FAQSection.tsx",
+          "operation": "delete",
+          "description": "Remove this component as photo enhancement FAQs are not part of the Backrooms/Dreamcore website."
+        },
+        {
+          "path": "frontend/src/components/FinalCTASection.tsx",
+          "operation": "delete",
+          "description": "Remove this component as pricing CTAs are not part of the Backrooms/Dreamcore website."
+        },
+        {
+          "path": "frontend/src/components/StickyCTA.tsx",
+          "operation": "delete",
+          "description": "Remove this component as photo enhancement CTAs are not part of the Backrooms/Dreamcore website."
+        },
+        {
+          "path": "frontend/src/components/BeforeAfterSlider.tsx",
+          "operation": "delete",
+          "description": "Remove this component as before/after photo sliders are not part of the Backrooms/Dreamcore website."
+        }
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "summary": "Apply Backrooms and Dreamcore visual theme with liminal color palette, noise textures, flickering animations, and typewriter-style typography",
+      "acceptanceCriteria": [
+        "Color palette consistently uses yellowed-fluorescent, beige, and void black tones",
+        "Noise/grain texture overlay is visible on section backgrounds",
+        "At least one flickering or pulsing CSS animation is present on accent elements",
+        "Typography uses a monospace/typewriter-style font for headings"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Replace existing dark fantasy color tokens with Backrooms/Dreamcore palette using CSS custom properties: --fluorescent-yellow (#c8c87a), --fluorescent-green (#b5b84a), --liminal-beige (#d4c9a0), --off-white (#e8e8d8), --void-black (#080808), --pale-cyan (#a8d8d8), --faded-lavender (#c4b8d8). Add noise/grain texture utility class (.texture-grain) using SVG filter or CSS background pattern. Add @keyframes flicker animation for fluorescent light effect. Keep Tailwind directives."
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Replace existing dark fantasy color tokens in theme.extend.colors with Backrooms/Dreamcore palette: fluorescent (yellow/green shades), liminal (beige), offWhite, voidBlack, paleCyan, fadedLavender. Update fontFamily to include monospace/typewriter font family for headings alongside sans-serif. Keep existing Tailwind plugins and structure."
+        }
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "summary": "Build full-screen Hero section with Backrooms headline, subheadline, Enter CTA, flickering animation, and generated hero background image",
+      "acceptanceCriteria": [
+        "Hero headline reads 'You Weren't Supposed to Find This'",
+        "Flickering fluorescent CSS animation is present",
+        "Hero background uses the generated Backrooms environment image",
+        "'Enter' CTA button is visible and styled"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Implement full-screen hero with headline 'You Weren't Supposed to Find This', subheadline 'Welcome to the Backrooms — infinite liminal space beyond the boundaries of reality', single 'Enter' button that smooth-scrolls to #what-are-backrooms section. Apply flickering CSS animation (flicker keyframes) to background or accent elements. Set background image to frontend/public/assets/generated/backrooms-hero-bg.dim_1920x1080.jpg with dark vignette overlay. Remove ParticleAnimation component if particle effects don't fit liminal aesthetic."
+        }
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "summary": "Build 'What Are The Backrooms?' lore section with atmospheric copy and generated hallway image",
+      "acceptanceCriteria": [
+        "Section contains explanatory lore copy about the Backrooms",
+        "At least one large pull-quote is present",
+        "Generated hallway image is displayed alongside the text"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/WhatAreBackroomsSection.tsx",
+          "operation": "create",
+          "description": "Create lore section with id='what-are-backrooms' containing explanatory copy about liminal spaces, noclipping out of reality, and endless fluorescent corridors of Level 0. Include large pull-quote styled text: 'No exits. No entities. Just you and the hum of fluorescent lights.' Display generated image frontend/public/assets/generated/backrooms-hallway.dim_960x540.jpg alongside text. Use scroll-triggered fade-in animation from useScrollAnimation hook. Apply liminal color palette and noise texture."
+        }
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "summary": "Build 'Levels' section with four Backrooms level cards in a grid, each with generated image, name, description, and hover glow effect",
+      "acceptanceCriteria": [
+        "Four level cards are displayed in a grid layout",
+        "Each card has a generated image, level name, and short description",
+        "Hover glow effect is present on each card",
+        "Level colors differ per card to reflect each level's atmosphere"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/LevelsSection.tsx",
+          "operation": "create",
+          "description": "Create levels section with id='levels' containing a responsive grid of four level cards: Level 0 (The Lobby — infinite yellow carpeted rooms, frontend/public/assets/generated/level-0-lobby.dim_480x480.jpg), Level 1 (Habitable Zone — concrete warehouses, frontend/public/assets/generated/level-1-habitable.dim_480x480.jpg), Level ! (The False Level — dreamcore pastel distortion, frontend/public/assets/generated/level-false-pastel.dim_480x480.jpg), The Poolrooms (flooded iridescent rooms with dreamlike calm, frontend/public/assets/generated/level-poolrooms.dim_480x480.jpg). Each card displays image, level name, short evocative description, and CSS hover glow border effect matching level's color palette (yellow-green for 0, concrete gray for 1, pastel pink/lavender for !, cyan for Poolrooms). Use scroll-triggered fade-in animation."
+        }
+      ]
+    },
+    {
+      "id": "REQ-19",
+      "summary": "Build 'Dreamcore' section with explanatory copy and masonry-style mood board grid of four generated dreamcore images",
+      "acceptanceCriteria": [
+        "Section contains Dreamcore explanatory copy",
+        "Four generated dreamcore images are displayed in a grid or masonry layout",
+        "Section uses softer pastel accent colors contrasting with the darker Backrooms sections"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/DreamcoreSection.tsx",
+          "operation": "create",
+          "description": "Create dreamcore section with id='dreamcore' containing explanatory copy about the Dreamcore aesthetic: surreal, nostalgic imagery evoking half-remembered dreams, empty playgrounds at dusk, pastel skies, beautiful melancholy. Display masonry-style or grid layout of four generated images: frontend/public/assets/generated/dreamcore-swings.dim_480x480.jpg (empty swing set at twilight), frontend/public/assets/generated/dreamcore-corridor.dim_480x480.jpg (infinite soft pastel corridor), frontend/public/assets/generated/dreamcore-lake.dim_480x480.jpg (misty lake at dawn), frontend/public/assets/generated/dreamcore-pool.dim_480x480.jpg (empty indoor swimming pool). Use softer pastel accent colors (pale cyan, faded lavender) to contrast with darker Backrooms sections. Apply scroll-triggered fade-in animation."
+        }
+      ]
+    },
+    {
+      "id": "REQ-20",
+      "summary": "Build 'Survival Guide' section styled as distressed typewriter document with five survival tips",
+      "acceptanceCriteria": [
+        "Section displays five survival tips",
+        "Content is styled to resemble a typewritten or distressed document",
+        "Monospace font and paper/grain texture are applied to this section"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/SurvivalGuideSection.tsx",
+          "operation": "create",
+          "description": "Create survival guide section with id='survival-guide' styled as a distressed text document or typewriter note. List five survival tips: 'Stay calm and do not run', 'Follow the hum of electricity toward exits', 'Avoid wet areas — they attract entities', 'Document everything you find', 'Remember: most levels are survivable'. Use monospace font, subtle paper texture background (apply .texture-grain utility), and faded ink styling with distressed edges. Apply scroll-triggered fade-in animation."
+        }
+      ]
+    },
+    {
+      "id": "REQ-21",
+      "summary": "Build Footer with site name, tagline, smooth-scroll navigation, and fan project disclaimer",
+      "acceptanceCriteria": [
+        "Footer shows site name 'Into The Backrooms' and tagline",
+        "Smooth-scroll navigation links are present",
+        "Fan project disclaimer is included",
+        "Footer uses the site's liminal color palette"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Replace existing footer content with site name 'Into The Backrooms', tagline 'The walls are not what they seem.', smooth-scroll navigation links to sections (what-are-backrooms, levels, dreamcore, survival-guide), and disclaimer: 'This site is a fan-made creative project inspired by the Backrooms and Dreamcore internet aesthetics.' Apply liminal color palette (fluorescent yellow-green accents, void black background, off-white text). Remove any photo enhancement or Dark Fantasy branding."
+        }
+      ]
+    },
+    {
+      "id": "REQ-22",
+      "summary": "Update index.html with new site title, meta description, Open Graph tags, and import monospace/typewriter Google Font",
+      "acceptanceCriteria": [
+        "Page title is 'Into The Backrooms'",
+        "Meta description references liminal spaces",
+        "A monospace Google Font is imported",
+        "Open Graph tags are updated"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update <title> to 'Into The Backrooms'. Update meta description to reference liminal spaces and the Backrooms aesthetic (e.g., 'Explore the infinite liminal spaces of the Backrooms and Dreamcore aesthetic. Enter a world beyond reality.'). Update Open Graph tags (og:title, og:description) to match. Import monospace/typewriter Google Font (e.g., 'Special Elite' or 'Share Tech Mono') alongside existing 'Inter' font in <head>. Remove 'Cormorant Garamond' font import if no longer needed."
+        }
+      ]
+    },
+    {
+      "id": "REQ-23",
+      "summary": "Update index.css and tailwind.config.js with Backrooms/Dreamcore palette, noise texture utility, and flicker animation",
+      "acceptanceCriteria": [
+        "Tailwind config includes the new Backrooms/Dreamcore color tokens",
+        "CSS noise/grain utility class is defined",
+        "'flicker' CSS keyframe animation is present",
+        "Old dark fantasy tokens are replaced"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Replace existing OKLCH color tokens with Backrooms/Dreamcore palette as CSS custom properties: --fluorescent-yellow: #c8c87a, --fluorescent-green: #b5b84a, --liminal-beige: #d4c9a0, --off-white: #e8e8d8, --void-black: #080808, --pale-cyan: #a8d8d8, --faded-lavender: #c4b8d8. Define .texture-grain utility class using CSS background-image with SVG noise filter or repeating grain pattern. Add @keyframes flicker animation with opacity/brightness variations for fluorescent light effect. Remove old dark fantasy color tokens and glow effects if no longer applicable."
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Replace theme.extend.colors with new Backrooms/Dreamcore palette: fluorescentYellow, fluorescentGreen, liminalBeige, offWhite, voidBlack, paleCyan, fadedLavender. Update fontFamily to include monospace/typewriter font (e.g., 'Special Elite' or 'Share Tech Mono') for headings, keep 'Inter' for body. Add flicker animation to theme.extend.animation if needed. Remove old dark fantasy color tokens (gold, violet, etc.)."
+        }
+      ]
+    },
+    {
+      "id": "REQ-24",
+      "summary": "Wire all generated Backrooms and Dreamcore images as static assets in frontend/public/assets/generated",
+      "acceptanceCriteria": [
+        "All generated images are referenced from frontend/public/assets/generated",
+        "No broken image links exist on the page"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Ensure hero background image src references frontend/public/assets/generated/backrooms-hero-bg.dim_1920x1080.jpg using correct relative path for Vite (/assets/generated/...)."
+        },
+        {
+          "path": "frontend/src/components/WhatAreBackroomsSection.tsx",
+          "operation": "modify",
+          "description": "Ensure <img> src for hallway image references frontend/public/assets/generated/backrooms-hallway.dim_960x540.jpg using correct relative path."
+        },
+        {
+          "path": "frontend/src/components/LevelsSection.tsx",
+          "operation": "modify",
+          "description": "Ensure all four level card images reference correct paths: frontend/public/assets/generated/level-0-lobby.dim_480x480.jpg, frontend/public/assets/generated/level-1-habitable.dim_480x480.jpg, frontend/public/assets/generated/level-false-pastel.dim_480x480.jpg, frontend/public/assets/generated/level-poolrooms.dim_480x480.jpg using correct relative paths."
+        },
+        {
+          "path": "frontend/src/components/DreamcoreSection.tsx",
+          "operation": "modify",
+          "description": "Ensure all four dreamcore images reference correct paths: frontend/public/assets/generated/dreamcore-swings.dim_480x480.jpg, frontend/public/assets/generated/dreamcore-corridor.dim_480x480.jpg, frontend/public/assets/generated/dreamcore-lake.dim_480x480.jpg, frontend/public/assets/generated/dreamcore-pool.dim_480x480.jpg using correct relative paths."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Wire new section components into App component render order: HeroSection, WhatAreBackroomsSection, LevelsSection, DreamcoreSection, SurvivalGuideSection, Footer. Ensure NavBar is retained and updated with new section links. Remove all old section component imports (GallerySection, PricingSection, etc.). Verify all new sections are imported and rendered in logical flow."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "kind": "build_request",
+  "title": "Build Backrooms & Dreamcore Website",
+  "projectName": "Into The Backrooms",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-14",
+      "text": "Replace the entire existing landing page with a new website themed around the Backrooms and Dreamcore aesthetic. Completely overwrite App.tsx and all existing section components with new content, copy, and structure suited to this theme. Remove all references to 'Dark Fantasy by Ricay', photo enhancement services, pricing, testimonials, and knight imagery.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "Make me a website about the backrooms and dreamcore"
+        ]
+      },
+      "acceptanceCriteria": [
+        "No references to 'Dark Fantasy by Ricay' or photo enhancement remain anywhere on the page",
+        "All section content is replaced with Backrooms/Dreamcore themed content",
+        "Old knight images are no longer referenced"
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "text": "Apply a Backrooms and Dreamcore visual theme consistently across the entire site. Use muted yellowed-fluorescent greens (#c8c87a, #b5b84a), off-white (#e8e8d8), liminal beige (#d4c9a0), and deep void black (#080808) as the primary palette. Accent with ghostly pale cyan (#a8d8d8) and faded lavender (#c4b8d8) for dreamcore softness. Typography should use a monospace or typewriter-style font for headings to evoke unsettling liminal space, paired with a clean sans-serif for body text. Apply subtle noise/grain texture overlays, flickering or pulsing CSS animations on accent elements, and a pervasive feeling of vast empty space and eerie quiet. The aesthetic must feel unsettling yet dreamlike — not horror or gore.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "Make me a website about the backrooms and dreamcore"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color palette consistently uses yellowed-fluorescent, beige, and void black tones",
+        "Noise/grain texture overlay is visible on section backgrounds",
+        "At least one flickering or pulsing CSS animation is present on accent elements",
+        "Typography uses a monospace/typewriter-style font for headings"
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "text": "Build a full-screen Hero section with the headline 'You Weren't Supposed to Find This', a subheadline 'Welcome to the Backrooms — infinite liminal space beyond the boundaries of reality', and a single CTA button labeled 'Enter'. Include a subtle looping CSS animation suggesting flickering fluorescent light in the background. Display a muted yellowed environment image (generated asset) as the hero background with a heavy dark vignette overlay.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "Make me a website about the backrooms and dreamcore"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero headline reads 'You Weren't Supposed to Find This'",
+        "Flickering fluorescent CSS animation is present",
+        "Hero background uses the generated Backrooms environment image",
+        "'Enter' CTA button is visible and styled"
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "text": "Build a 'What Are The Backrooms?' lore section with atmospheric copy explaining the concept of liminal spaces, noclipping out of reality, and the endless fluorescent-lit corridors of Level 0. Use large pull-quote typography for key phrases like 'No exits. No entities. Just you and the hum of fluorescent lights.' alongside a generated image of a long empty hallway.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "Make me a website about the backrooms and dreamcore"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section contains explanatory lore copy about the Backrooms",
+        "At least one large pull-quote is present",
+        "Generated hallway image is displayed alongside the text"
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "text": "Build a 'Levels' section showcasing a grid of four Backrooms levels: Level 0 (The Lobby — infinite yellow carpeted rooms), Level 1 (Habitable Zone — concrete warehouses), Level ! (The False Level — dreamcore pastel distortion), and The Poolrooms (flooded iridescent rooms with dreamlike calm). Each level card should show a generated image, the level name, a short evocative description, and a subtle glow border on hover matching the level's color palette.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "Make me a website about the backrooms and dreamcore"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Four level cards are displayed in a grid layout",
+        "Each card has a generated image, level name, and short description",
+        "Hover glow effect is present on each card",
+        "Level colors differ per card to reflect each level's atmosphere"
+      ]
+    },
+    {
+      "id": "REQ-19",
+      "text": "Build a 'Dreamcore' section explaining the Dreamcore aesthetic — surreal, nostalgic imagery evoking half-remembered dreams, empty playgrounds at dusk, pastel skies, and a feeling of beautiful melancholy. Include a visual mood board grid of four generated dreamcore scene images (empty swing set at twilight, pastel infinite hallway, misty lake at dawn, soft-lit empty pool) arranged in a masonry-style layout.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "Make me a website about the backrooms and dreamcore"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section contains Dreamcore explanatory copy",
+        "Four generated dreamcore images are displayed in a grid or masonry layout",
+        "Section uses softer pastel accent colors contrasting with the darker Backrooms sections"
+      ]
+    },
+    {
+      "id": "REQ-20",
+      "text": "Build a 'Survival Guide' section styled as a distressed text document or typewriter note. List five survival tips for navigating the Backrooms: Stay calm and do not run, Follow the hum of electricity toward exits, Avoid wet areas — they attract entities, Document everything you find, Remember: most levels are survivable. Use a monospace font, subtle paper texture background, and faded ink styling.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "Make me a website about the backrooms and dreamcore"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section displays five survival tips",
+        "Content is styled to resemble a typewritten or distressed document",
+        "Monospace font and paper/grain texture are applied to this section"
+      ]
+    },
+    {
+      "id": "REQ-21",
+      "text": "Build a Footer section with the site name 'Into The Backrooms', a tagline 'The walls are not what they seem.', and navigation links that smooth-scroll to each section. Include a small disclaimer: 'This site is a fan-made creative project inspired by the Backrooms and Dreamcore internet aesthetics.' Style with the same muted, liminal color palette.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "Make me a website about the backrooms and dreamcore"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer shows site name 'Into The Backrooms' and tagline",
+        "Smooth-scroll navigation links are present",
+        "Fan project disclaimer is included",
+        "Footer uses the site's liminal color palette"
+      ]
+    },
+    {
+      "id": "REQ-22",
+      "text": "Update frontend/index.html with the new site title 'Into The Backrooms', updated meta description referencing liminal spaces and the Backrooms aesthetic, and Open Graph tags. Import a monospace/typewriter Google Font (e.g., 'Special Elite' or 'Share Tech Mono') alongside a clean sans-serif (e.g., 'Inter') in the HTML head.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "Make me a website about the backrooms and dreamcore"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Page title is 'Into The Backrooms'",
+        "Meta description references liminal spaces",
+        "A monospace Google Font is imported",
+        "Open Graph tags are updated"
+      ]
+    },
+    {
+      "id": "REQ-23",
+      "text": "Update frontend/src/index.css and frontend/tailwind.config.js to replace the existing dark fantasy design tokens with the Backrooms/Dreamcore palette: fluorescent yellow-green (#c8c87a, #b5b84a), liminal beige (#d4c9a0), off-white (#e8e8d8), void black (#080808), pale cyan (#a8d8d8), and faded lavender (#c4b8d8). Add a CSS noise/grain texture utility class using an SVG filter or repeating background pattern. Add a 'flicker' keyframe animation for the fluorescent light effect.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "Make me a website about the backrooms and dreamcore"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Tailwind config includes the new Backrooms/Dreamcore color tokens",
+        "CSS noise/grain utility class is defined",
+        "'flicker' CSS keyframe animation is present",
+        "Old dark fantasy tokens are replaced"
+      ]
+    },
+    {
+      "id": "REQ-24",
+      "text": "Render all generated Backrooms and Dreamcore images as static assets in frontend/public/assets/generated and update all component <img> src references to use these paths.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "Make me a website about the backrooms and dreamcore"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All generated images are referenced from frontend/public/assets/generated",
+        "No broken image links exist on the page"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not edit any files under frontend/src/hooks/ or frontend/src/components/ui/",
+    "Do not edit frontend/src/main.tsx",
+    "All generated images must be placed in frontend/public/assets/generated"
+  ],
+  "nonGoals": [
+    "No backend logic or data persistence is needed",
+    "No user accounts, authentication, or Internet Identity integration",
+    "No e-commerce, pricing tiers, or photo upload functionality",
+    "No real-time features or chat"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Wide-angle view of an infinite fluorescent-lit yellow carpeted office corridor fading into darkness, slightly overexposed, liminal and empty (backrooms-hero-bg.dim_1920x1080.jpg)",
+      "Long empty fluorescent-lit hallway with yellowed walls and wet carpet, perspective vanishing point centered, eerie and vast (backrooms-hallway.dim_960x540.jpg)",
+      "Level 0 — infinite yellow-carpeted rooms under flickering fluorescent lights, shot from a low angle, deeply unsettling (level-0-lobby.dim_480x480.jpg)",
+      "Level 1 — vast dark concrete warehouse interior with sparse fluorescent ceiling lights and industrial scaffolding (level-1-habitable.dim_480x480.jpg)",
+      "Level ! (False Level) — surreal pastel dreamcore distortion of a hallway, soft pinks and lavenders, warped geometry (level-false-pastel.dim_480x480.jpg)",
+      "The Poolrooms — flooded iridescent indoor pool area with arched ceilings, caustic light patterns on water, dreamlike and serene (level-poolrooms.dim_480x480.jpg)",
+      "Dreamcore scene: empty swing set at twilight with soft pastel orange and purple sky, nostalgic and melancholy (dreamcore-swings.dim_480x480.jpg)",
+      "Dreamcore scene: infinite soft pastel corridor with gentle pink and lilac tones, blurred and dreamlike (dreamcore-corridor.dim_480x480.jpg)",
+      "Dreamcore scene: misty lake at dawn with pale lavender fog and mirror-still water, serene and surreal (dreamcore-lake.dim_480x480.jpg)",
+      "Dreamcore scene: empty indoor swimming pool lit with soft warm light, teal water, nostalgic 1980s aesthetic (dreamcore-pool.dim_480x480.jpg)"
+    ],
+    "edits": []
+  }
+}

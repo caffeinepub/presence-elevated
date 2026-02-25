@@ -1,0 +1,247 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.25rem;
+
+        /* Backrooms / Dreamcore Color System */
+        --background: 0.09 0.008 95;
+        --foreground: 0.88 0.02 90;
+
+        --card: 0.12 0.01 90;
+        --card-foreground: 0.88 0.02 90;
+
+        --popover: 0.14 0.01 90;
+        --popover-foreground: 0.88 0.02 90;
+
+        /* Fluorescent yellow-green as primary */
+        --primary: 0.78 0.12 100;
+        --primary-foreground: 0.08 0.005 95;
+
+        /* Liminal beige as secondary */
+        --secondary: 0.28 0.02 90;
+        --secondary-foreground: 0.88 0.02 90;
+
+        --muted: 0.18 0.01 90;
+        --muted-foreground: 0.52 0.02 90;
+
+        /* Pale cyan as accent */
+        --accent: 0.72 0.06 195;
+        --accent-foreground: 0.08 0.005 95;
+
+        --destructive: 0.577 0.245 27.325;
+        --destructive-foreground: 0.985 0 0;
+
+        --border: 0.22 0.015 90;
+        --input: 0.18 0.01 90;
+        --ring: 0.78 0.12 100;
+
+        --chart-1: 0.78 0.12 100;
+        --chart-2: 0.72 0.06 195;
+        --chart-3: 0.68 0.06 280;
+        --chart-4: 0.75 0.08 90;
+        --chart-5: 0.65 0.04 90;
+
+        --sidebar: 0.10 0.007 90;
+        --sidebar-foreground: 0.88 0.02 90;
+        --sidebar-primary: 0.78 0.12 100;
+        --sidebar-primary-foreground: 0.08 0.005 95;
+        --sidebar-accent: 0.15 0.01 90;
+        --sidebar-accent-foreground: 0.88 0.02 90;
+        --sidebar-border: 0.22 0.015 90;
+        --sidebar-ring: 0.78 0.12 100;
+    }
+
+    * {
+        @apply border-border;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'Inter', sans-serif;
+        background-color: oklch(0.09 0.008 95);
+        color: oklch(0.88 0.02 90);
+        overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4 {
+        font-family: 'Special Elite', 'Share Tech Mono', monospace;
+    }
+}
+
+@layer utilities {
+    .font-mono-display {
+        font-family: 'Special Elite', 'Share Tech Mono', monospace;
+    }
+
+    .font-typewriter {
+        font-family: 'Share Tech Mono', monospace;
+    }
+
+    .font-sans {
+        font-family: 'Inter', sans-serif;
+    }
+
+    /* Noise/grain texture overlay */
+    .texture-grain {
+        position: relative;
+    }
+
+    .texture-grain::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+        background-size: 200px 200px;
+        background-repeat: repeat;
+        opacity: 0.045;
+        pointer-events: none;
+        z-index: 1;
+        mix-blend-mode: overlay;
+    }
+
+    .texture-paper {
+        background-color: oklch(0.82 0.04 90);
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+        background-size: 200px 200px;
+    }
+
+    .text-fluorescent {
+        color: oklch(0.82 0.14 100);
+    }
+
+    .text-liminal {
+        color: oklch(0.75 0.05 90);
+    }
+
+    .text-pale-cyan {
+        color: oklch(0.72 0.06 195);
+    }
+
+    .text-faded-lavender {
+        color: oklch(0.72 0.06 280);
+    }
+
+    .text-off-white {
+        color: oklch(0.92 0.01 90);
+    }
+
+    .bg-void {
+        background-color: oklch(0.06 0.005 95);
+    }
+
+    .section-fade-in {
+        opacity: 0;
+        transform: translateY(28px);
+        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    .section-fade-in.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .glow-fluorescent {
+        box-shadow: 0 0 20px oklch(0.82 0.14 100 / 0.35), 0 0 60px oklch(0.82 0.14 100 / 0.12);
+    }
+
+    .glow-cyan {
+        box-shadow: 0 0 20px oklch(0.72 0.06 195 / 0.4), 0 0 60px oklch(0.72 0.06 195 / 0.15);
+    }
+
+    .glow-lavender {
+        box-shadow: 0 0 20px oklch(0.72 0.06 280 / 0.4), 0 0 60px oklch(0.72 0.06 280 / 0.15);
+    }
+}
+
+/* Flicker animation for fluorescent lights */
+@keyframes flicker {
+    0%, 100% { opacity: 1; }
+    2% { opacity: 0.85; }
+    4% { opacity: 1; }
+    8% { opacity: 0.9; }
+    10% { opacity: 1; }
+    50% { opacity: 1; }
+    52% { opacity: 0.7; }
+    54% { opacity: 1; }
+    56% { opacity: 0.8; }
+    58% { opacity: 1; }
+    90% { opacity: 1; }
+    92% { opacity: 0.88; }
+    94% { opacity: 1; }
+}
+
+@keyframes flickerText {
+    0%, 100% { opacity: 1; text-shadow: 0 0 8px oklch(0.82 0.14 100 / 0.6); }
+    3% { opacity: 0.8; text-shadow: none; }
+    5% { opacity: 1; text-shadow: 0 0 8px oklch(0.82 0.14 100 / 0.6); }
+    55% { opacity: 1; text-shadow: 0 0 8px oklch(0.82 0.14 100 / 0.6); }
+    57% { opacity: 0.65; text-shadow: none; }
+    59% { opacity: 1; text-shadow: 0 0 12px oklch(0.82 0.14 100 / 0.8); }
+}
+
+@keyframes pulseGlow {
+    0%, 100% { box-shadow: 0 0 15px oklch(0.82 0.14 100 / 0.3), 0 0 40px oklch(0.82 0.14 100 / 0.1); }
+    50% { box-shadow: 0 0 25px oklch(0.82 0.14 100 / 0.5), 0 0 70px oklch(0.82 0.14 100 / 0.2); }
+}
+
+@keyframes scanline {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(100vh); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes accordion-down {
+    from { height: 0; }
+    to { height: var(--radix-accordion-content-height); }
+}
+
+@keyframes accordion-up {
+    from { height: var(--radix-accordion-content-height); }
+    to { height: 0; }
+}
+
+.animate-flicker {
+    animation: flicker 8s ease-in-out infinite;
+}
+
+.animate-flicker-text {
+    animation: flickerText 10s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+    animation: pulseGlow 3s ease-in-out infinite;
+}
+
+.animate-accordion-down {
+    animation: accordion-down 0.2s ease-out;
+}
+
+.animate-accordion-up {
+    animation: accordion-up 0.2s ease-out;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: oklch(0.09 0.008 95);
+}
+::-webkit-scrollbar-thumb {
+    background: oklch(0.28 0.02 90);
+    border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: oklch(0.78 0.12 100 / 0.5);
+}

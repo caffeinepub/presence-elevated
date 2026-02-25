@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "New website project about the Backrooms and Dreamcore aesthetic. Replaces the previous Dark Fantasy by Ricay landing page project.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Wide-angle view of an infinite fluorescent-lit yellow carpeted office corridor fading into darkness, slightly overexposed, liminal and empty (backrooms-hero-bg.dim_1920x1080.jpg)\n- Long empty fluorescent-lit hallway with yellowed walls and wet carpet, perspective vanishing point centered, eerie and vast (backrooms-hallway.dim_960x540.jpg)\n- Level 0 — infinite yellow-carpeted rooms under flickering fluorescent lights, shot from a low angle, deeply unsettling (level-0-lobby.dim_480x480.jpg)\n- Level 1 — vast dark concrete warehouse interior with sparse fluorescent ceiling lights and industrial scaffolding (level-1-habitable.dim_480x480.jpg)\n- Level ! (False Level) — surreal pastel dreamcore distortion of a hallway, soft pinks and lavenders, warped geometry (level-false-pastel.dim_480x480.jpg)\n- The Poolrooms — flooded iridescent indoor pool area with arched ceilings, caustic light patterns on water, dreamlike and serene (level-poolrooms.dim_480x480.jpg)\n- Dreamcore scene: empty swing set at twilight with soft pastel orange and purple sky, nostalgic and melancholy (dreamcore-swings.dim_480x480.jpg)\n- Dreamcore scene: infinite soft pastel corridor with gentle pink and lilac tones, blurred and dreamlike (dreamcore-corridor.dim_480x480.jpg)\n- Dreamcore scene: misty lake at dawn with pale lavender fog and mirror-still water, serene and surreal (dreamcore-lake.dim_480x480.jpg)\n- Dreamcore scene: empty indoor swimming pool lit with soft warm light, teal water, nostalgic 1980s aesthetic (dreamcore-pool.dim_480x480.jpg)",
+  "existing_features": [
+    {
+      "id": "feature-apply-a-dark-fantasy-visual-theme-consistently-across-the-entire-landing-page-deep-black-0a0a0a-charcoal-1a1a1a-midnight-blue-0d1b2a-and-dark-purple-1a0d2e-backgrounds-soft-gold-c9a84c-silver-b0b8c1-and-violet-7b4fa6-glowing-accents-elegant-serif-headings-paired-with-modern-sans-serif-body-text-cinematic-drop-shadows-and-subtle-mist-texture-overlays-the-aesthetic-must-feel-luxurious-and-powerful-not-gothic-or-horror-themed",
+      "title": "Apply a dark fantasy visual theme consistently across the entire landing page: deep black (#0a0a0a), charcoal (#1a1a1a), midnight blue (#0d1b2a), and dark purple (#1a0d2e) backgrounds; soft gold (#c9a84c), silver (#b0b8c1), and violet (#7b4fa6) glowing accents; elegant serif headings paired with modern sans-serif body text; cinematic drop shadows and subtle mist/texture overlays. The aesthetic must feel luxurious and powerful — not gothic or horror-themed.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-hero-section-with-headline-step-into-your-strongest-presence-subheadline-professional-photo-enhancement-that-refines-your-lighting-clarity-and-presence-without-changing-who-you-are-primary-cta-button-enhance-my-photo-secondary-cta-link-view-transformations-a-before-after-image-slider-with-soft-glow-effects-a-subtle-css-particle-or-mist-animation-in-the-background-and-three-trust-indicators-displayed-inline-secure-upload-24-48-hour-delivery-100-private",
+      "title": "Build a Hero Section with: headline 'Step Into Your Strongest Presence', subheadline 'Professional photo enhancement that refines your lighting, clarity, and presence — without changing who you are.', primary CTA button 'Enhance My Photo', secondary CTA link 'View Transformations', a before/after image slider with soft glow effects, a subtle CSS particle or mist animation in the background, and three trust indicators displayed inline: 'Secure Upload • 24–48 Hour Delivery • 100% Private'.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-transformation-section-a-short-emotional-copy-block-with-the-message-you-don-t-need-a-new-face-you-need-better-lighting-better-presence-better-polish-highlight-four-pillars-confidence-authority-digital-first-impressions-and-standing-out-in-a-crowded-feed-use-dramatic-typographic-styling-consistent-with-the-dark-fantasy-theme",
+      "title": "Build 'The Transformation' section — a short emotional copy block with the message: 'You don't need a new face. You need better lighting, better presence, better polish.' Highlight four pillars: Confidence, Authority, Digital First Impressions, and Standing Out in a Crowded Feed. Use dramatic typographic styling consistent with the dark fantasy theme.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-how-it-works-section-displaying-three-numbered-steps-in-a-horizontal-or-vertical-layout-step-1-upload-your-photo-step-2-we-refine-light-tone-presence-step-3-download-your-elevated-profile-picture-each-step-should-have-an-icon-a-short-reassuring-description-and-be-styled-with-the-dark-fantasy-aesthetic",
+      "title": "Build a 'How It Works' section displaying three numbered steps in a horizontal or vertical layout: Step 1 — 'Upload Your Photo', Step 2 — 'We Refine Light, Tone & Presence', Step 3 — 'Download Your Elevated Profile Picture'. Each step should have an icon, a short reassuring description, and be styled with the dark fantasy aesthetic.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-before-after-gallery-section-with-a-dark-themed-grid-layout-each-gallery-card-should-show-a-before-after-image-pair-use-placeholder-images-and-have-a-spotlight-or-glow-hover-effect-display-realistic-enhancement-labels-on-cards-dramatic-lighting-correction-background-darkening-blur-natural-skin-refinement-sharpened-focus-cinematic-contrast-balancing",
+      "title": "Build a Before & After Gallery section with a dark-themed grid layout. Each gallery card should show a before/after image pair (use placeholder images) and have a spotlight or glow hover effect. Display realistic enhancement labels on cards: Dramatic Lighting Correction, Background Darkening/Blur, Natural Skin Refinement, Sharpened Focus, Cinematic Contrast Balancing.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-what-we-enhance-section-listing-seven-enhancement-features-with-elegant-checkmark-or-custom-styled-icons-lighting-shadow-correction-natural-skin-refinement-background-enhancement-color-tone-balancing-sharpness-detail-boost-professional-framing-subtle-blemish-removal-include-the-reassurance-line-we-enhance-your-presence-we-never-alter-your-identity",
+      "title": "Build a 'What We Enhance' section listing seven enhancement features with elegant checkmark or custom-styled icons: Lighting & Shadow Correction, Natural Skin Refinement, Background Enhancement, Color & Tone Balancing, Sharpness & Detail Boost, Professional Framing, Subtle Blemish Removal. Include the reassurance line: 'We enhance your presence — we never alter your identity.'",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-pricing-section-with-three-dark-premium-pricing-cards-basic-light-enhancement-1-image-standard-turnaround-professional-marked-most-popular-full-cinematic-refinement-background-enhancement-2-images-priority-delivery-and-elite-advanced-retouch-background-replacement-options-express-delivery-multiple-revisions-the-professional-card-must-have-a-subtle-violet-or-gold-glow-border-to-distinguish-it-each-card-should-have-a-cta-button",
+      "title": "Build a Pricing Section with three dark premium pricing cards: Basic (light enhancement, 1 image, standard turnaround), Professional — marked 'Most Popular' (full cinematic refinement, background enhancement, 2 images, priority delivery), and Elite (advanced retouch, background replacement options, express delivery, multiple revisions). The Professional card must have a subtle violet or gold glow border to distinguish it. Each card should have a CTA button.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-testimonials-section-using-a-dark-card-grid-layout-with-soft-glow-borders-include-at-least-four-placeholder-testimonials-focused-on-increased-linkedin-engagement-more-interview-callbacks-higher-dating-match-rate-and-stronger-personal-brand-testimonial-cards-should-include-a-name-role-context-and-quote-keep-tone-authentic-and-grounded",
+      "title": "Build a Testimonials section using a dark card grid layout with soft glow borders. Include at least four placeholder testimonials focused on: increased LinkedIn engagement, more interview callbacks, higher dating match rate, and stronger personal brand. Testimonial cards should include a name, role/context, and quote. Keep tone authentic and grounded.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-an-faq-section-using-an-accordion-style-component-include-answers-to-these-five-questions-do-you-change-my-face-is-my-photo-private-how-long-does-it-take-can-i-request-revisions-what-if-i-m-not-satisfied-answers-should-be-written-in-a-reassuring-professional-tone-each-item-should-expand-collapse-on-click",
+      "title": "Build an FAQ section using an accordion-style component. Include answers to these five questions: 'Do you change my face?', 'Is my photo private?', 'How long does it take?', 'Can I request revisions?', 'What if I'm not satisfied?' Answers should be written in a reassuring, professional tone. Each item should expand/collapse on click.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-final-cta-section-with-the-headline-ready-to-be-seen-differently-and-a-large-glowing-cta-button-labeled-enhance-my-photo-now-the-section-should-have-minimal-visual-distractions-and-strong-contrast-use-a-dark-background-with-a-prominent-glowing-button-as-the-focal-point",
+      "title": "Build a Final CTA Section with the headline 'Ready to Be Seen Differently?' and a large glowing CTA button labeled 'Enhance My Photo Now'. The section should have minimal visual distractions and strong contrast — use a dark background with a prominent glowing button as the focal point.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-sticky-cta-button-that-remains-visible-as-the-user-scrolls-on-mobile-display-it-as-a-fixed-bottom-bar-labeled-enhance-my-photo-on-desktop-integrate-it-into-a-sticky-navigation-bar-at-the-top-apply-subtle-cinematic-scroll-triggered-animations-fade-in-slide-up-to-section-headings-and-cards-as-they-enter-the-viewport-ensure-the-entire-page-is-mobile-first-responsive-and-follows-seo-friendly-html-structure-semantic-tags-proper-heading-hierarchy",
+      "title": "Implement a sticky CTA button that remains visible as the user scrolls. On mobile, display it as a fixed bottom bar labeled 'Enhance My Photo'. On desktop, integrate it into a sticky navigation bar at the top. Apply subtle cinematic scroll-triggered animations (fade-in, slide-up) to section headings and cards as they enter the viewport. Ensure the entire page is mobile-first responsive and follows SEO-friendly HTML structure (semantic tags, proper heading hierarchy).",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-rebrand-the-site-to-dark-fantasy-by-ricay-update-the-page-title-in-index-html-all-navbar-brand-logo-text-the-footer-brand-name-and-any-section-headings-or-meta-tags-that-reference-the-service-name-so-the-name-dark-fantasy-by-ricay-appears-consistently-throughout-the-landing-page",
+      "title": "Rebrand the site to 'Dark Fantasy by Ricay' — update the page title in index.html, all NavBar brand/logo text, the Footer brand name, and any section headings or meta tags that reference the service name, so the name 'Dark Fantasy by Ricay' appears consistently throughout the landing page.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-all-human-portrait-placeholder-images-across-the-landing-page-herosection-before-after-slider-gallerysection-before-after-cards-with-knight-and-armor-themed-images-consistent-with-the-dark-fantasy-aesthetic-generate-new-images-a-cinematic-armored-knight-before-portrait-dim-600x600-a-cinematic-armored-knight-after-portrait-with-enhanced-dramatic-lighting-dim-600x600-and-five-gallery-card-before-after-knight-portrait-pairs-each-dim-480x480-illustrating-the-enhancement-labels-dramatic-lighting-correction-background-darkening-blur-natural-skin-refinement-armor-surface-sharpened-focus-and-cinematic-contrast-balancing-render-these-as-static-assets-from-frontend-public-assets-generated-and-update-all-component-img-src-references-accordingly",
+      "title": "Replace all human portrait placeholder images across the landing page (HeroSection before/after slider, GallerySection before/after cards) with knight and armor themed images consistent with the dark fantasy aesthetic. Generate new images: a cinematic armored knight 'before' portrait (dim 600x600), a cinematic armored knight 'after' portrait with enhanced dramatic lighting (dim 600x600), and five gallery card before/after knight portrait pairs (each dim 480x480) illustrating the enhancement labels: Dramatic Lighting Correction, Background Darkening/Blur, Natural Skin Refinement (armor surface), Sharpened Focus, and Cinematic Contrast Balancing. Render these as static assets from frontend/public/assets/generated and update all component <img> src references accordingly.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-entire-existing-landing-page-with-a-new-website-themed-around-the-backrooms-and-dreamcore-aesthetic-completely-overwrite-app-tsx-and-all-existing-section-components-with-new-content-copy-and-structure-suited-to-this-theme-remove-all-references-to-dark-fantasy-by-ricay-photo-enhancement-services-pricing-testimonials-and-knight-imagery",
+      "title": "Replace the entire existing landing page with a new website themed around the Backrooms and Dreamcore aesthetic. Completely overwrite App.tsx and all existing section components with new content, copy, and structure suited to this theme. Remove all references to 'Dark Fantasy by Ricay', photo enhancement services, pricing, testimonials, and knight imagery.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-backrooms-and-dreamcore-visual-theme-consistently-across-the-entire-site-use-muted-yellowed-fluorescent-greens-c8c87a-b5b84a-off-white-e8e8d8-liminal-beige-d4c9a0-and-deep-void-black-080808-as-the-primary-palette-accent-with-ghostly-pale-cyan-a8d8d8-and-faded-lavender-c4b8d8-for-dreamcore-softness-typography-should-use-a-monospace-or-typewriter-style-font-for-headings-to-evoke-unsettling-liminal-space-paired-with-a-clean-sans-serif-for-body-text-apply-subtle-noise-grain-texture-overlays-flickering-or-pulsing-css-animations-on-accent-elements-and-a-pervasive-feeling-of-vast-empty-space-and-eerie-quiet-the-aesthetic-must-feel-unsettling-yet-dreamlike-not-horror-or-gore",
+      "title": "Apply a Backrooms and Dreamcore visual theme consistently across the entire site. Use muted yellowed-fluorescent greens (#c8c87a, #b5b84a), off-white (#e8e8d8), liminal beige (#d4c9a0), and deep void black (#080808) as the primary palette. Accent with ghostly pale cyan (#a8d8d8) and faded lavender (#c4b8d8) for dreamcore softness. Typography should use a monospace or typewriter-style font for headings to evoke unsettling liminal space, paired with a clean sans-serif for body text. Apply subtle noise/grain texture overlays, flickering or pulsing CSS animations on accent elements, and a pervasive feeling of vast empty space and eerie quiet. The aesthetic must feel unsettling yet dreamlike — not horror or gore.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-full-screen-hero-section-with-the-headline-you-weren-t-supposed-to-find-this-a-subheadline-welcome-to-the-backrooms-infinite-liminal-space-beyond-the-boundaries-of-reality-and-a-single-cta-button-labeled-enter-include-a-subtle-looping-css-animation-suggesting-flickering-fluorescent-light-in-the-background-display-a-muted-yellowed-environment-image-generated-asset-as-the-hero-background-with-a-heavy-dark-vignette-overlay",
+      "title": "Build a full-screen Hero section with the headline 'You Weren't Supposed to Find This', a subheadline 'Welcome to the Backrooms — infinite liminal space beyond the boundaries of reality', and a single CTA button labeled 'Enter'. Include a subtle looping CSS animation suggesting flickering fluorescent light in the background. Display a muted yellowed environment image (generated asset) as the hero background with a heavy dark vignette overlay.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-what-are-the-backrooms-lore-section-with-atmospheric-copy-explaining-the-concept-of-liminal-spaces-noclipping-out-of-reality-and-the-endless-fluorescent-lit-corridors-of-level-0-use-large-pull-quote-typography-for-key-phrases-like-no-exits-no-entities-just-you-and-the-hum-of-fluorescent-lights-alongside-a-generated-image-of-a-long-empty-hallway",
+      "title": "Build a 'What Are The Backrooms?' lore section with atmospheric copy explaining the concept of liminal spaces, noclipping out of reality, and the endless fluorescent-lit corridors of Level 0. Use large pull-quote typography for key phrases like 'No exits. No entities. Just you and the hum of fluorescent lights.' alongside a generated image of a long empty hallway.",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-levels-section-showcasing-a-grid-of-four-backrooms-levels-level-0-the-lobby-infinite-yellow-carpeted-rooms-level-1-habitable-zone-concrete-warehouses-level-the-false-level-dreamcore-pastel-distortion-and-the-poolrooms-flooded-iridescent-rooms-with-dreamlike-calm-each-level-card-should-show-a-generated-image-the-level-name-a-short-evocative-description-and-a-subtle-glow-border-on-hover-matching-the-level-s-color-palette",
+      "title": "Build a 'Levels' section showcasing a grid of four Backrooms levels: Level 0 (The Lobby — infinite yellow carpeted rooms), Level 1 (Habitable Zone — concrete warehouses), Level ! (The False Level — dreamcore pastel distortion), and The Poolrooms (flooded iridescent rooms with dreamlike calm). Each level card should show a generated image, the level name, a short evocative description, and a subtle glow border on hover matching the level's color palette.",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-dreamcore-section-explaining-the-dreamcore-aesthetic-surreal-nostalgic-imagery-evoking-half-remembered-dreams-empty-playgrounds-at-dusk-pastel-skies-and-a-feeling-of-beautiful-melancholy-include-a-visual-mood-board-grid-of-four-generated-dreamcore-scene-images-empty-swing-set-at-twilight-pastel-infinite-hallway-misty-lake-at-dawn-soft-lit-empty-pool-arranged-in-a-masonry-style-layout",
+      "title": "Build a 'Dreamcore' section explaining the Dreamcore aesthetic — surreal, nostalgic imagery evoking half-remembered dreams, empty playgrounds at dusk, pastel skies, and a feeling of beautiful melancholy. Include a visual mood board grid of four generated dreamcore scene images (empty swing set at twilight, pastel infinite hallway, misty lake at dawn, soft-lit empty pool) arranged in a masonry-style layout.",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-survival-guide-section-styled-as-a-distressed-text-document-or-typewriter-note-list-five-survival-tips-for-navigating-the-backrooms-stay-calm-and-do-not-run-follow-the-hum-of-electricity-toward-exits-avoid-wet-areas-they-attract-entities-document-everything-you-find-remember-most-levels-are-survivable-use-a-monospace-font-subtle-paper-texture-background-and-faded-ink-styling",
+      "title": "Build a 'Survival Guide' section styled as a distressed text document or typewriter note. List five survival tips for navigating the Backrooms: Stay calm and do not run, Follow the hum of electricity toward exits, Avoid wet areas — they attract entities, Document everything you find, Remember: most levels are survivable. Use a monospace font, subtle paper texture background, and faded ink styling.",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-footer-section-with-the-site-name-into-the-backrooms-a-tagline-the-walls-are-not-what-they-seem-and-navigation-links-that-smooth-scroll-to-each-section-include-a-small-disclaimer-this-site-is-a-fan-made-creative-project-inspired-by-the-backrooms-and-dreamcore-internet-aesthetics-style-with-the-same-muted-liminal-color-palette",
+      "title": "Build a Footer section with the site name 'Into The Backrooms', a tagline 'The walls are not what they seem.', and navigation links that smooth-scroll to each section. Include a small disclaimer: 'This site is a fan-made creative project inspired by the Backrooms and Dreamcore internet aesthetics.' Style with the same muted, liminal color palette.",
+      "reqIds": [
+        "REQ-21"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-frontend-index-html-with-the-new-site-title-into-the-backrooms-updated-meta-description-referencing-liminal-spaces-and-the-backrooms-aesthetic-and-open-graph-tags-import-a-monospace-typewriter-google-font-e-g-special-elite-or-share-tech-mono-alongside-a-clean-sans-serif-e-g-inter-in-the-html-head",
+      "title": "Update frontend/index.html with the new site title 'Into The Backrooms', updated meta description referencing liminal spaces and the Backrooms aesthetic, and Open Graph tags. Import a monospace/typewriter Google Font (e.g., 'Special Elite' or 'Share Tech Mono') alongside a clean sans-serif (e.g., 'Inter') in the HTML head.",
+      "reqIds": [
+        "REQ-22"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-frontend-src-index-css-and-frontend-tailwind-config-js-to-replace-the-existing-dark-fantasy-design-tokens-with-the-backrooms-dreamcore-palette-fluorescent-yellow-green-c8c87a-b5b84a-liminal-beige-d4c9a0-off-white-e8e8d8-void-black-080808-pale-cyan-a8d8d8-and-faded-lavender-c4b8d8-add-a-css-noise-grain-texture-utility-class-using-an-svg-filter-or-repeating-background-pattern-add-a-flicker-keyframe-animation-for-the-fluorescent-light-effect",
+      "title": "Update frontend/src/index.css and frontend/tailwind.config.js to replace the existing dark fantasy design tokens with the Backrooms/Dreamcore palette: fluorescent yellow-green (#c8c87a, #b5b84a), liminal beige (#d4c9a0), off-white (#e8e8d8), void black (#080808), pale cyan (#a8d8d8), and faded lavender (#c4b8d8). Add a CSS noise/grain texture utility class using an SVG filter or repeating background pattern. Add a 'flicker' keyframe animation for the fluorescent light effect.",
+      "reqIds": [
+        "REQ-23"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-all-generated-backrooms-and-dreamcore-images-as-static-assets-in-frontend-public-assets-generated-and-update-all-component-img-src-references-to-use-these-paths",
+      "title": "Render all generated Backrooms and Dreamcore images as static assets in frontend/public/assets/generated and update all component <img> src references to use these paths.",
+      "reqIds": [
+        "REQ-24"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-13",
+      "summary": "Build a website themed around the Backrooms and Dreamcore aesthetic",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Dark Fantasy by Ricay",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
