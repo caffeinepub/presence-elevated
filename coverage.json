@@ -1,112 +1,18 @@
 {
   "kind": "coverage_report",
   "version": "1.0",
-  "generatedAt": "2026-02-25T21:47:13.006Z",
+  "generatedAt": "2026-02-25T21:53:21.301Z",
   "sources": {
     "buildRequest": true,
     "implementationPlan": true
   },
   "requirements": {
-    "total": 11,
-    "implemented": 11,
+    "total": 2,
+    "implemented": 2,
     "items": [
       {
-        "id": "REQ-14",
-        "summary": "Replace the entire existing landing page with a new website themed around the Backrooms and Dreamcore aesthetic. Completely overwrite App.tsx and all existing section components with new content, copy, and structure suited to this theme. Remove all references to 'Dark Fantasy by Ricay', photo enhancement services, pricing, testimonials, and knight imagery.",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/App.tsx",
-          "frontend/src/components/HeroSection.tsx",
-          "frontend/src/components/NavBar.tsx",
-          "frontend/src/components/Footer.tsx",
-          "frontend/src/components/GallerySection.tsx",
-          "frontend/src/components/PricingSection.tsx",
-          "frontend/src/components/TestimonialsSection.tsx",
-          "frontend/src/components/HowItWorksSection.tsx",
-          "frontend/src/components/TransformationSection.tsx",
-          "frontend/src/components/WhatWeEnhanceSection.tsx",
-          "frontend/src/components/FAQSection.tsx",
-          "frontend/src/components/FinalCTASection.tsx",
-          "frontend/src/components/StickyCTA.tsx",
-          "frontend/src/components/BeforeAfterSlider.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/App.tsx",
-          "frontend/src/components/HeroSection.tsx",
-          "frontend/src/components/NavBar.tsx",
-          "frontend/src/components/Footer.tsx",
-          "frontend/src/components/GallerySection.tsx",
-          "frontend/src/components/PricingSection.tsx",
-          "frontend/src/components/TestimonialsSection.tsx",
-          "frontend/src/components/HowItWorksSection.tsx",
-          "frontend/src/components/TransformationSection.tsx",
-          "frontend/src/components/WhatWeEnhanceSection.tsx",
-          "frontend/src/components/FAQSection.tsx",
-          "frontend/src/components/FinalCTASection.tsx",
-          "frontend/src/components/StickyCTA.tsx",
-          "frontend/src/components/BeforeAfterSlider.tsx"
-        ]
-      },
-      {
-        "id": "REQ-15",
-        "summary": "Apply a Backrooms and Dreamcore visual theme consistently across the entire site. Use muted yellowed-fluorescent greens (#c8c87a, #b5b84a), off-white (#e8e8d8), liminal beige (#d4c9a0), and deep void black (#080808) as the primary palette. Accent with ghostly pale cyan (#a8d8d8) and faded lavender (#c4b8d8) for dreamcore softness. Typography should use a monospace or typewriter-style font for headings to evoke unsettling liminal space, paired with a clean sans-serif for body text. Apply subtle noise/grain texture overlays, flickering or pulsing CSS animations on accent elements, and a pervasive feeling of vast empty space and eerie quiet. The aesthetic must feel unsettling yet dreamlike — not horror or gore.",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/index.css",
-          "frontend/tailwind.config.js"
-        ],
-        "matchedFiles": [
-          "frontend/src/index.css",
-          "frontend/tailwind.config.js"
-        ]
-      },
-      {
-        "id": "REQ-16",
-        "summary": "Build a full-screen Hero section with the headline 'You Weren't Supposed to Find This', a subheadline 'Welcome to the Backrooms — infinite liminal space beyond the boundaries of reality', and a single CTA button labeled 'Enter'. Include a subtle looping CSS animation suggesting flickering fluorescent light in the background. Display a muted yellowed environment image (generated asset) as the hero background with a heavy dark vignette overlay.",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/HeroSection.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/HeroSection.tsx"
-        ]
-      },
-      {
-        "id": "REQ-17",
-        "summary": "Build a 'What Are The Backrooms?' lore section with atmospheric copy explaining the concept of liminal spaces, noclipping out of reality, and the endless fluorescent-lit corridors of Level 0. Use large pull-quote typography for key phrases like 'No exits. No entities. Just you and the hum of fluorescent lights.' alongside a generated image of a long empty hallway.",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/WhatAreBackroomsSection.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/WhatAreBackroomsSection.tsx"
-        ]
-      },
-      {
-        "id": "REQ-18",
-        "summary": "Build a 'Levels' section showcasing a grid of four Backrooms levels: Level 0 (The Lobby — infinite yellow carpeted rooms), Level 1 (Habitable Zone — concrete warehouses), Level ! (The False Level — dreamcore pastel distortion), and The Poolrooms (flooded iridescent rooms with dreamlike calm). Each level card should show a generated image, the level name, a short evocative description, and a subtle glow border on hover matching the level's color palette.",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/LevelsSection.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/LevelsSection.tsx"
-        ]
-      },
-      {
-        "id": "REQ-19",
-        "summary": "Build a 'Dreamcore' section explaining the Dreamcore aesthetic — surreal, nostalgic imagery evoking half-remembered dreams, empty playgrounds at dusk, pastel skies, and a feeling of beautiful melancholy. Include a visual mood board grid of four generated dreamcore scene images (empty swing set at twilight, pastel infinite hallway, misty lake at dawn, soft-lit empty pool) arranged in a masonry-style layout.",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/DreamcoreSection.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/DreamcoreSection.tsx"
-        ]
-      },
-      {
-        "id": "REQ-20",
-        "summary": "Build a 'Survival Guide' section styled as a distressed text document or typewriter note. List five survival tips for navigating the Backrooms: Stay calm and do not run, Follow the hum of electricity toward exits, Avoid wet areas — they attract entities, Document everything you find, Remember: most levels are survivable. Use a monospace font, subtle paper texture background, and faded ink styling.",
+        "id": "REQ-25",
+        "summary": "Update the SurvivalGuideSection component to rebrand the section heading and attribution so it reads 'Timmy and Ricay's Survival Tips' (or styled variant like 'Timmy & Ricay's Survival Tips'). The five existing survival tips should remain unchanged in content; only the section title/byline attribution must reflect both names. Keep the existing distressed typewriter aesthetic.",
         "status": "implemented",
         "plannedFiles": [
           "frontend/src/components/SurvivalGuideSection.tsx"
@@ -116,56 +22,15 @@
         ]
       },
       {
-        "id": "REQ-21",
-        "summary": "Build a Footer section with the site name 'Into The Backrooms', a tagline 'The walls are not what they seem.', and navigation links that smooth-scroll to each section. Include a small disclaimer: 'This site is a fan-made creative project inspired by the Backrooms and Dreamcore internet aesthetics.' Style with the same muted, liminal color palette.",
+        "id": "REQ-26",
+        "summary": "Implement a full-screen code entry gate that blocks access to all site content until the user submits the correct code '2112'. When the site loads, display a full-screen overlay (matching the Backrooms/Dreamcore aesthetic — void black background, fluorescent accent, monospace font) with a prompt such as 'Enter Access Code' and a text input field plus a submit button. If the user submits '2112', dismiss the gate and reveal the site. If they submit an incorrect code, display an in-place error message (e.g., 'ACCESS DENIED') with a subtle flicker animation and keep the gate visible. The gate state should persist for the browser session (sessionStorage) so refreshing the page does not re-show the gate after a successful entry.",
         "status": "implemented",
         "plannedFiles": [
-          "frontend/src/components/Footer.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/Footer.tsx"
-        ]
-      },
-      {
-        "id": "REQ-22",
-        "summary": "Update frontend/index.html with the new site title 'Into The Backrooms', updated meta description referencing liminal spaces and the Backrooms aesthetic, and Open Graph tags. Import a monospace/typewriter Google Font (e.g., 'Special Elite' or 'Share Tech Mono') alongside a clean sans-serif (e.g., 'Inter') in the HTML head.",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/index.html"
-        ],
-        "matchedFiles": [
-          "frontend/index.html"
-        ]
-      },
-      {
-        "id": "REQ-23",
-        "summary": "Update frontend/src/index.css and frontend/tailwind.config.js to replace the existing dark fantasy design tokens with the Backrooms/Dreamcore palette: fluorescent yellow-green (#c8c87a, #b5b84a), liminal beige (#d4c9a0), off-white (#e8e8d8), void black (#080808), pale cyan (#a8d8d8), and faded lavender (#c4b8d8). Add a CSS noise/grain texture utility class using an SVG filter or repeating background pattern. Add a 'flicker' keyframe animation for the fluorescent light effect.",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/index.css",
-          "frontend/tailwind.config.js"
-        ],
-        "matchedFiles": [
-          "frontend/src/index.css",
-          "frontend/tailwind.config.js"
-        ]
-      },
-      {
-        "id": "REQ-24",
-        "summary": "Render all generated Backrooms and Dreamcore images as static assets in frontend/public/assets/generated and update all component <img> src references to use these paths.",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/HeroSection.tsx",
-          "frontend/src/components/WhatAreBackroomsSection.tsx",
-          "frontend/src/components/LevelsSection.tsx",
-          "frontend/src/components/DreamcoreSection.tsx",
+          "frontend/src/components/CodeEntryGate.tsx",
           "frontend/src/App.tsx"
         ],
         "matchedFiles": [
-          "frontend/src/components/HeroSection.tsx",
-          "frontend/src/components/WhatAreBackroomsSection.tsx",
-          "frontend/src/components/LevelsSection.tsx",
-          "frontend/src/components/DreamcoreSection.tsx",
+          "frontend/src/components/CodeEntryGate.tsx",
           "frontend/src/App.tsx"
         ]
       }
@@ -173,42 +38,12 @@
   },
   "changedFiles": [
     "build-request.json",
-    "build-template/README.md",
-    "caffeine.lock.json",
     "feature_evidence.json",
     "frontend-file-summaries.txt",
     "frontend-implementation-plan.json",
-    "frontend/index.html",
-    "frontend/public/assets/generated/backrooms-hallway.dim_960x540.jpg",
-    "frontend/public/assets/generated/backrooms-hero-bg.dim_1920x1080.jpg",
-    "frontend/public/assets/generated/dreamcore-corridor.dim_480x480.jpg",
-    "frontend/public/assets/generated/dreamcore-lake.dim_480x480.jpg",
-    "frontend/public/assets/generated/dreamcore-pool.dim_480x480.jpg",
-    "frontend/public/assets/generated/dreamcore-swings.dim_480x480.jpg",
-    "frontend/public/assets/generated/level-0-lobby.dim_480x480.jpg",
-    "frontend/public/assets/generated/level-1-habitable.dim_480x480.jpg",
-    "frontend/public/assets/generated/level-false-pastel.dim_480x480.jpg",
-    "frontend/public/assets/generated/level-poolrooms.dim_480x480.jpg",
     "frontend/src/App.tsx",
-    "frontend/src/components/BeforeAfterSlider.tsx",
-    "frontend/src/components/DreamcoreSection.tsx",
-    "frontend/src/components/FAQSection.tsx",
-    "frontend/src/components/FinalCTASection.tsx",
-    "frontend/src/components/Footer.tsx",
-    "frontend/src/components/GallerySection.tsx",
-    "frontend/src/components/HeroSection.tsx",
-    "frontend/src/components/HowItWorksSection.tsx",
-    "frontend/src/components/LevelsSection.tsx",
-    "frontend/src/components/NavBar.tsx",
-    "frontend/src/components/PricingSection.tsx",
-    "frontend/src/components/StickyCTA.tsx",
+    "frontend/src/components/CodeEntryGate.tsx",
     "frontend/src/components/SurvivalGuideSection.tsx",
-    "frontend/src/components/TestimonialsSection.tsx",
-    "frontend/src/components/TransformationSection.tsx",
-    "frontend/src/components/WhatAreBackroomsSection.tsx",
-    "frontend/src/components/WhatWeEnhanceSection.tsx",
-    "frontend/src/index.css",
-    "frontend/tailwind.config.js",
     "project_state.json",
     "scratch/component-selection.json",
     "spec.md",

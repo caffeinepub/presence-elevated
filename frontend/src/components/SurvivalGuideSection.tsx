@@ -74,8 +74,14 @@ const SurvivalGuideSection: React.FC = () => {
                         className="font-serif text-3xl sm:text-4xl lg:text-5xl mt-3"
                         style={{ color: 'oklch(0.88 0.03 90)' }}
                     >
-                        Survival Guide
+                        Timmy &amp; Ricay's Survival Tips
                     </h2>
+                    <p
+                        className="font-mono text-xs mt-2 tracking-widest uppercase"
+                        style={{ color: 'oklch(0.72 0.08 100 / 0.8)' }}
+                    >
+                        — curated by Timmy and Ricay —
+                    </p>
                     <p
                         className="font-sans text-sm mt-4 max-w-lg mx-auto"
                         style={{ color: 'oklch(0.48 0.02 90)' }}
@@ -123,7 +129,7 @@ const SurvivalGuideSection: React.FC = () => {
                                 className="font-mono text-xs mt-2"
                                 style={{ color: 'oklch(0.48 0.03 90)' }}
                             >
-                                CLASSIFICATION: OPEN — DISTRIBUTE FREELY
+                                AUTHORS: TIMMY &amp; RICAY — CLASSIFICATION: OPEN — DISTRIBUTE FREELY
                             </p>
                         </div>
 
@@ -175,6 +181,12 @@ const SurvivalGuideSection: React.FC = () => {
                                 style={{ color: 'oklch(0.58 0.03 90)', fontSize: '0.6rem', letterSpacing: '0.1em' }}
                             >
                                 PAGE 1 OF ∞
+                            </p>
+                            <p
+                                className="font-mono text-xs mt-2 tracking-widest uppercase"
+                                style={{ color: 'oklch(0.42 0.03 90)', fontSize: '0.6rem' }}
+                            >
+                                — Timmy &amp; Ricay
                             </p>
                         </div>
                     </div>

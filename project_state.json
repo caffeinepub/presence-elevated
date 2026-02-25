@@ -1,11 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 7,
+  "projectStateVersion": 9,
   "summary": "New website project about the Backrooms and Dreamcore aesthetic. Replaces the previous Dark Fantasy by Ricay landing page project.",
   "architectural_notes": [],
   "known_issues": [],
   "isFixRequest": false,
-  "imageRequirements": "## Required Images\n- Wide-angle view of an infinite fluorescent-lit yellow carpeted office corridor fading into darkness, slightly overexposed, liminal and empty (backrooms-hero-bg.dim_1920x1080.jpg)\n- Long empty fluorescent-lit hallway with yellowed walls and wet carpet, perspective vanishing point centered, eerie and vast (backrooms-hallway.dim_960x540.jpg)\n- Level 0 — infinite yellow-carpeted rooms under flickering fluorescent lights, shot from a low angle, deeply unsettling (level-0-lobby.dim_480x480.jpg)\n- Level 1 — vast dark concrete warehouse interior with sparse fluorescent ceiling lights and industrial scaffolding (level-1-habitable.dim_480x480.jpg)\n- Level ! (False Level) — surreal pastel dreamcore distortion of a hallway, soft pinks and lavenders, warped geometry (level-false-pastel.dim_480x480.jpg)\n- The Poolrooms — flooded iridescent indoor pool area with arched ceilings, caustic light patterns on water, dreamlike and serene (level-poolrooms.dim_480x480.jpg)\n- Dreamcore scene: empty swing set at twilight with soft pastel orange and purple sky, nostalgic and melancholy (dreamcore-swings.dim_480x480.jpg)\n- Dreamcore scene: infinite soft pastel corridor with gentle pink and lilac tones, blurred and dreamlike (dreamcore-corridor.dim_480x480.jpg)\n- Dreamcore scene: misty lake at dawn with pale lavender fog and mirror-still water, serene and surreal (dreamcore-lake.dim_480x480.jpg)\n- Dreamcore scene: empty indoor swimming pool lit with soft warm light, teal water, nostalgic 1980s aesthetic (dreamcore-pool.dim_480x480.jpg)",
   "existing_features": [
     {
       "id": "feature-apply-a-dark-fantasy-visual-theme-consistently-across-the-entire-landing-page-deep-black-0a0a0a-charcoal-1a1a1a-midnight-blue-0d1b2a-and-dark-purple-1a0d2e-backgrounds-soft-gold-c9a84c-silver-b0b8c1-and-violet-7b4fa6-glowing-accents-elegant-serif-headings-paired-with-modern-sans-serif-body-text-cinematic-drop-shadows-and-subtle-mist-texture-overlays-the-aesthetic-must-feel-luxurious-and-powerful-not-gothic-or-horror-themed",
@@ -198,12 +197,40 @@
         "REQ-24"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-update-the-survivalguidesection-component-to-rebrand-the-section-heading-and-attribution-so-it-reads-timmy-and-ricay-s-survival-tips-or-styled-variant-like-timmy-ricay-s-survival-tips-the-five-existing-survival-tips-should-remain-unchanged-in-content-only-the-section-title-byline-attribution-must-reflect-both-names-keep-the-existing-distressed-typewriter-aesthetic",
+      "title": "Update the SurvivalGuideSection component to rebrand the section heading and attribution so it reads 'Timmy and Ricay's Survival Tips' (or styled variant like 'Timmy & Ricay's Survival Tips'). The five existing survival tips should remain unchanged in content; only the section title/byline attribution must reflect both names. Keep the existing distressed typewriter aesthetic.",
+      "reqIds": [
+        "REQ-25"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-full-screen-code-entry-gate-that-blocks-access-to-all-site-content-until-the-user-submits-the-correct-code-2112-when-the-site-loads-display-a-full-screen-overlay-matching-the-backrooms-dreamcore-aesthetic-void-black-background-fluorescent-accent-monospace-font-with-a-prompt-such-as-enter-access-code-and-a-text-input-field-plus-a-submit-button-if-the-user-submits-2112-dismiss-the-gate-and-reveal-the-site-if-they-submit-an-incorrect-code-display-an-in-place-error-message-e-g-access-denied-with-a-subtle-flicker-animation-and-keep-the-gate-visible-the-gate-state-should-persist-for-the-browser-session-sessionstorage-so-refreshing-the-page-does-not-re-show-the-gate-after-a-successful-entry",
+      "title": "Implement a full-screen code entry gate that blocks access to all site content until the user submits the correct code '2112'. When the site loads, display a full-screen overlay (matching the Backrooms/Dreamcore aesthetic — void black background, fluorescent accent, monospace font) with a prompt such as 'Enter Access Code' and a text input field plus a submit button. If the user submits '2112', dismiss the gate and reveal the site. If they submit an incorrect code, display an in-place error message (e.g., 'ACCESS DENIED') with a subtle flicker animation and keep the gate visible. The gate state should persist for the browser session (sessionStorage) so refreshing the page does not re-show the gate after a successful entry.",
+      "reqIds": [
+        "REQ-26"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
     {
       "id": "AR-13",
       "summary": "Build a website themed around the Backrooms and Dreamcore aesthetic",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-14",
+      "summary": "Add 'Timmy and Ricay's Survival Tips' branding to the Survival Guide section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-15",
+      "summary": "Add a code entry gate to the site — users must submit code '2112' to enter/access the content",
       "reqIds": [],
       "status": "pending"
     }

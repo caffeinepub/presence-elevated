@@ -6,10 +6,12 @@ import LevelsSection from './components/LevelsSection';
 import DreamcoreSection from './components/DreamcoreSection';
 import SurvivalGuideSection from './components/SurvivalGuideSection';
 import Footer from './components/Footer';
+import CodeEntryGate from './components/CodeEntryGate';
 
 const App: React.FC = () => {
     return (
         <div className="min-h-screen" style={{ background: 'oklch(0.09 0.008 95)' }}>
+            <CodeEntryGate />
             <NavBar />
             <main>
                 <HeroSection />
